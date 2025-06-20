@@ -1,0 +1,48 @@
+.box{
+  height: 300px;
+  width: 500px;
+  background-color: rgb(246, 183, 81);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  font-size: 20px;
+  border-radius: 20px;
+
+  box-shadow: 3px 3px 5px black;
+}
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  background-color: rgb(252, 244, 157);
+}
+input{
+  height: 30px;
+  border: none;
+  
+  width: 200px;
+  border-bottom: 2px solid blue;
+
+  border-radius: 10px;
+  padding-left: 10px;
+  
+}
+.selectbar{
+  height: 32px;
+  width: 80px;
+  border: none;
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+
+  background-color: rgb(246, 183, 81);
+
+  border-radius: 10px;
+  
+}
